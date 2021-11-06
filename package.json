@@ -1,0 +1,35 @@
+{
+  "name": "demo_desarrollo",
+  "version": "1.0.0",
+  "description": "Demo de prueba ambiente ci/cd",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/* --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebapolanco/demo_desarrollo.git"
+  },
+  "keywords": [
+    "ci",
+    "cd",
+    "supertest",
+    "mocha",
+    "node",
+    "github",
+    "actions"
+  ],
+  "author": "SPL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebapolanco/demo_desarrollo/issues"
+  },
+  "homepage": "https://github.com/sebapolanco/demo_desarrollo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.1.3",
+    "supertest": "^6.1.6"
+  }
+}
